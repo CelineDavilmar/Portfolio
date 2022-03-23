@@ -4,14 +4,11 @@
    
 }
 
-aside {
-  
-}
-
 /* Sets the background color of the page */
 body {
     background-color: #ffffff;
 }
+
 
 .navbar {
     padding: 20px 40px;
@@ -31,21 +28,26 @@ body {
 
 .navbar nav {
     float: right;
-    flood-opacity: 5%;
-    justify-content: space-around;
+    display: inline-flex;
+}
+
+.nav {
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
 }
 
 .left-section {
     float: left;
     width: 25%;
     font-size: 200%;
-    border-right: 2px solid black;
+    border-right: 2px solid #47b7f0;
     display: inline-flex;
     padding: 1.5%;
+    color: #47b7f0;
 }
 
 .right-section {
-  /*float: right;*/
   width: 60%;
   margin: 2%;
   flex-wrap: wrap;
@@ -63,14 +65,25 @@ body {
 
 .card {
     flex: 1 0 0;
-    padding: 20px;
     text-align: center;
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
     flex-wrap: wrap;
+    border-color: #47b7f0;
   }
 
+  img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  /*
 .contact h1, .contact p {
     display: inline-flex;
 }
@@ -78,7 +91,7 @@ body {
 .resume h1, .resume p {
     display: inline-flex;
 }
-
+*/
 footer {
     text-align: center;
 }
