@@ -38,8 +38,8 @@ body {
 }
 
 .left-section {
-    float: left;
-    width: 25%;
+    margin-left: 10%;
+    width: 15%;
     font-size: 200%;
     border-right: 2px solid #47b7f0;
     display: inline-flex;
@@ -55,18 +55,15 @@ body {
   display: inline-flexbox;
 }
 
-.about h1, .about p {
-    display: inline-flex;
-}
 
-.cards h2, .card {
+.display {
     display: inline-flex;
 }
 
 .card {
     flex: 1 0 0;
     text-align: center;
-    border-style: solid;
+    border-style: hidden;
     border-width: 2px;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -83,15 +80,11 @@ body {
   img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
-  /*
-.contact h1, .contact p {
-    display: inline-flex;
-}
 
-.resume h1, .resume p {
-    display: inline-flex;
-}
-*/
+  section {
+    border-right: 2px solid #47b7f0;
+  }
+
 footer {
     text-align: center;
 }
