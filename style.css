@@ -1,6 +1,8 @@
+
+
 /* Universal selector / All elements on the page */
 * {
-
+    font-family: 'Patrick Hand', cursive;
    
 }
 
@@ -8,7 +10,6 @@
 body {
     background-color: #ffffff;
 }
-
 
 .navbar {
     padding: 20px 40px;
@@ -42,9 +43,11 @@ body {
     width: 15%;
     font-size: 200%;
     border-right: 2px solid #47b7f0;
+    height: 150px;
     display: inline-flex;
     padding: 1.5%;
     color: #47b7f0;
+    padding: 100px 30px;
 }
 
 .right-section {
@@ -60,29 +63,44 @@ body {
     display: inline-flex;
 }
 
+
+
 .card {
     flex: 1 0 0;
     text-align: center;
-    border-style: hidden;
+    border-style: solid;
     border-width: 2px;
     border-radius: 10px;
     flex-wrap: wrap;
-    border-color: #47b7f0;
+    border-color: #ffffff;
+    align-items: center;
   }
 
-  img {
+  .upcoming {
     border: 1px solid #ddd;
     border-radius: 10px;
-    padding: 5px;
-    width: 150px;
+    padding: 2px;
+    width: 175px;
+    align-items: center;
+  }
+
+  .recent {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 350px;
+    display: inline-flex;
+  }
+
+  .imgcontact {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 2px;
+    width: 50px;
   }
   
   img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  }
-
-  section {
-    border-right: 2px solid #47b7f0;
+    background-color: #47b7f0;
   }
 
 footer {

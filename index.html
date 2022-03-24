@@ -2,6 +2,9 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shadows+Into+Light&display=swap" rel="stylesheet">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <title>Portfolio</title>
@@ -12,20 +15,23 @@
             <h1>Portfolio</h1>
             <nav>
                 <a class="nav" href="#about-me"> About Me </a>
-                <a class="nav" href="#work"> Work </a>
+                <a class="nav" href="#Projects"> Projects </a>
                 <a class="nav" href="#contact-me"> Contact Me </a>
                 <a class="nav" href="#resume"> Resume </a>
             </nav>
         </header>
+
         <!--Banner-->
         <aside>
         <div class="banner-picture">
+            <p>R. Celine Davilmar</p>
             <a href="">
-                <img src="" alt="" />
+                <img src="" alt="picture of me " />
             </a>
         </div>
+
         <!--About Me Section-->
-        <section>
+        <section id="about-me">
             <h1 class="left-section display">About Me</h1>
                 <p class="right-section display">
                     I am a graduate from the Florida International University with an interest in Software Development. 
@@ -35,40 +41,45 @@
                     under pressure and adapt easily to changes; very self-motivated. I have also decided to continue my education to get certified in AWS.
                 </p>
         </section>
+
         <!--Projects Section-->
-        <section class="cards">
-            <h1 class="work left-section">Work</h1>
+        <section id="Projects" class="cards">
+            <h1 class="work left-section">Projects</h1>
+            
             <article class="card right-section display">
-                <a class="card" href="https://celinedavilmar.github.io/refactored-Horiseon/">
-                    <img src="./assets/Horiseon.png" alt="Horiseon Project" />
-                </a>
-                <a class="card" href="https://celinedavilmar.github.io/run-buddy/">
-                    <img src="./assets/RunBuddy.png" alt="Run Buddy" />
-                </a>
-                <a class="card" href="">
-                    <img src="" alt="" />
+
+                <a class="card right-section display" href="https://celinedavilmar.github.io/refactored-Horiseon/">
+                    <img class="recent" src="./assets/Horiseon.png" alt="Horiseon Project" />
                 </a>
                 
-                <a class="card" href="">
-                    <img src="" alt="" />
+                <a class="card" href="https://celinedavilmar.github.io/run-buddy/">
+                    <img class="upcoming" src="./assets/RunBuddy.png" alt="Run Buddy" />
+                </a>
+                <a class="card" href="https://celinedavilmar.github.io/run-buddy/">
+                    <img class="upcoming" src="./assets/RunBuddy.png" alt="Run Buddy" />
+                </a>
+                
+                <a class="card" href="https://celinedavilmar.github.io/run-buddy/">
+                    <img class="upcoming" src="./assets/RunBuddy.png" alt="Run Buddy" />
                 </a>
             </article>
         </section>
+
         <!--Contact Section-->
-        <section class="cards">
+        <section id="contact-me" class="cards">
             <h1 class="work left-section">Contact Me</h1>
             <article class="card right-section display">
-                <a class="card" href="">
-                    <img src="" alt="" />
+                <a class="card" href="https://www.linkedin.com/in/celinedavilmar/">
+                    <img class="imgcontact" src="./assets/linkedin logo.png" alt="LinkedIn" />
                 </a>
                 
-                <a class="card" href="">
-                    <img src="" alt="" />
+                <a class="card" href="https://github.com/CelineDavilmar">
+                    <img class="imgcontact" src="./assets/github logo.png" alt="GitHub" />
                 </a>
             </article>
         </section>
         <!--Resume Section-->
-        <section>
+        <section id="resume">
             <h1 class="left-section display">Resume</h1>
                 <p class="right-section display">
                     Resume
