@@ -66,6 +66,7 @@ body {
 
 .display {
     display: inline-flex;
+    flex-wrap: wrap;
 }
 
 
@@ -130,16 +131,25 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
+    .navbar {
+        padding: 60px 40px;
+    }
+
     .navbar nav {   
-        flex-direction: row;
-        float: right;
         width: 200px;
         justify-content: space-around;
-      }
-    
-    .right-section {
-        float: right;
-        margin:inherit;
         
+      }
+
+    h1.left-section.display {
+        align-content: center;
+    }
+    
+    .left-section {
+        border-right: none;
+        border-bottom: 2px solid #47b7f0;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        min-width: max-content;
     }
   }
