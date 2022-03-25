@@ -11,6 +11,11 @@ body {
     background-color: #ffffff;
 }
 
+.banner-picture {
+    padding: 5%;
+    align-content: center;
+}
+
 .navbar {
     padding: 20px 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -124,9 +129,17 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 700px) {
+    .navbar nav {   
+        flex-direction: row;
+        float: right;
+        width: 200px;
+        justify-content: space-around;
+      }
+    
     .right-section {
-      float: none;
-      width: 100%;
+        float: right;
+        margin:inherit;
+        
     }
   }
